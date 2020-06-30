@@ -1,0 +1,15 @@
+I used C++ to solve this problem.
+Time compexity: O(n)
+Space complexity: O(n)
+where n is the number of elements of the array
+Functionality:
+The program receives a file "1.in" with the following information: on the first
+line the number M and the size of the array and on the next line, the elements
+of the array and it generates an output file "1.out" with all the pairs.
+format: a-b c-d e-f...
+Description:
+I traverse the array only once. I am using an unordered set/hash map
+because its functions have a compexity of O(1) which does not affect the overall
+compexity.
+I use a hash map to look for the current value int he array, if it is a value
+which after substracting the former one we obtain the value M, I print it.
